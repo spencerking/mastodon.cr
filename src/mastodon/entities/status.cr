@@ -71,7 +71,7 @@ module Mastodon
       property application : Entities::Application?
 
       @[JSON::Field(key: "language")]
-      property language : String # from v1.4rc3
+      property language : String? # from v1.4rc3
 
       def_equals id
     end
