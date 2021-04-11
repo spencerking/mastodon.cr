@@ -5,11 +5,11 @@ authors:
   - Spencer King (current maintainer)
   - Decors <decors1215@gmail.com>
 
-crystal: 0.35.1
+crystal: ">= 0.36.0, < 2.0.0"
 
 license: MIT
 
 development_dependencies:
   webmock:
     github: manastech/webmock.cr
-    version: ~> 0.13.0
+    version: ~> 0.14.0
